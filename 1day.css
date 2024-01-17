@@ -5,6 +5,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 body {
     background-color: rgb(244, 244, 253);
 }
@@ -88,6 +89,10 @@ body {
         -webkit-text-stroke-width: .5px;
         -webkit-text-stroke-color: #fff;
         margin-top: -15px;
+
+        &:hover {
+            color: red;
+        }
     }
 
 }
